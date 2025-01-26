@@ -38,7 +38,7 @@ const renderConent = {
     ),
     4: (
         <InfoBox
-            text="A position exists for a Full Stack Developer who desires to work with us. We should work together."
+            text="Got a project in mind?. Let's work together."
             link="/contact"
             btnText="Let's Talk"
 
