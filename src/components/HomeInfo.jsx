@@ -17,12 +17,12 @@ const renderConent = {
     1: (
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-gradient py-4 px-8 text-white mx-5'>
             Hi, I am <span className='font-semibold'>Swapnil</span>👋
-            <br /> A Full Stack Developer from India.
+            <br /> A Passionate Developer from India.
         </h1>
     ),
     2: (
         <InfoBox
-            text="I am a Full Stack Developer with a passion for creating innovative and user-friendly web applications."
+            text="As a Full Stack Developer, I use my passion to create web applications that challenge existing norms through user-driven development methods."
             link="/about"
             btnText="Learn More"
 
@@ -30,7 +30,7 @@ const renderConent = {
     ),
     3: (
         <InfoBox
-            text="Created many projects along the way. Want to see them?"
+            text="Within my journey I have developed multiple projects. Want to check them out?"
             link="/projects"
             btnText="Visit my Portfolio"
 
@@ -38,7 +38,7 @@ const renderConent = {
     ),
     4: (
         <InfoBox
-            text="Looking for a Full Stack Developer? Would love to work with you."
+            text="A position exists for a Full Stack Developer who desires to work with us. We should work together."
             link="/contact"
             btnText="Let's Talk"
 
