@@ -139,7 +139,7 @@ const Contact = () => {
 
           {/* MESSAGE */}
           <label className='text-black-500 font-semibold'>
-            Name
+            Message
             <textarea
 
               name='message'

@@ -43,9 +43,7 @@ const About = () => {
         <h3 className='subhead-text'>My Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            After I completed the BCA degree I established foundational knowledge in programming alongside system design expertise.
-            At SICSR I am finishing my MCA studies while deepening my knowledge of advanced technologies and problem-solving techniques.
-            I work simultaneously on the Meta Back-End Developer certification program to develop my knowledge of backend systems while learning API integrations.
+            After completing BCA, a strong foundation in programming and system design was established. Currently pursuing an MCA at SICSR, focusing on advanced technologies and problem-solving, while also working on the Meta Back-End Developer certification to enhance knowledge of backend systems and API integrations.
           </p>
         </div>
 

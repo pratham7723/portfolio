@@ -22,7 +22,7 @@ const renderConent = {
     ),
     2: (
         <InfoBox
-            text="As a Full Stack Developer, I use my passion to create web applications that challenge existing norms through user-driven development methods."
+            text="As a Full Stack Developer, I use my passion to create web applications that challenge existing standards."
             link="/about"
             btnText="Learn More"
 
