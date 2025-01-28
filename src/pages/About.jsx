@@ -7,7 +7,7 @@ import CTA from '../components/CTA';
 const About = () => {
   return (
     <section className='max-container'>
-      <h1 className='head-text'>Hello, I'am <span className='blue-gradient_text font-semibold drop-shadow'>Swapnil</span></h1>
+      <h1 className='head-text'>Hello, I'am <span className='blue-gradient_text font-semibold drop-shadow'>Pratham Mehta</span></h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
@@ -18,7 +18,7 @@ const About = () => {
       {/* SKILLS */}
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
-
+    
         <div className='mt-16 flex flex-wrap gap-12'>
           {
             skills.map((skill, index) => (
@@ -43,7 +43,9 @@ const About = () => {
         <h3 className='subhead-text'>My Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            After completing BCA, a strong foundation in programming and system design was established. Currently pursuing an MCA at SICSR, focusing on advanced technologies and problem-solving, while also working on the Meta Back-End Developer certification to enhance knowledge of backend systems and API integrations.
+          Driven by a deep curiosity for technology, I embarked on my journey with a BCA, mastering the fundamentals of programming and system design. Now pursuing an Msc(CA) at SICSR, I’m delving into advanced technologies and honing my ability to solve complex problems with innovative solutions.
+
+I see technology as a bridge between ideas and reality, and I’m passionate about crafting systems that are not only functional but impactful. With every line of code, I aim to create experiences that inspire and empower, shaping a future where technology makes life better for everyone.
           </p>
         </div>
 

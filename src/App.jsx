@@ -1,31 +1,44 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import { Analytics } from "@vercel/analytics/react";
-
-import {
-    Home,
-    About,
-    Projects,
-    Contact
-} from './pages'
-
+import { Home, About, Projects, Contact } from './pages';
 
 const App = () => {
-    return (
-        <main className='bg-slate-300/20 h-full'>
-            <Router>
-                <Navbar />
-                <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/projects' element={<Projects />} />
-                    <Route path='/contact' element={<Contact />} />
-                </Routes>
-            </Router>
-            <Analytics />
-        </main>
-    );
+  const [theme, setTheme] = useState('light'); // Initial theme
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme) {
+      setTheme(storedTheme);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+  };
+
+  return (
+    <div className={`App ${theme}`}>
+      <main className="bg-slate-300/20 h-full">
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </main>
+      <button onClick={toggleTheme} className="p-2 bg-gray-800 text-white rounded">
+        Toggle Theme
+      </button>
+    </div>
+  );
 };
 
-export default App
+export default App;

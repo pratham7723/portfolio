@@ -26,11 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import zentry from './zentry.svg'
-import lock from './lock.svg'
+import zentry from './zentry.png'
+import lock from './lock.png'
 import music from './music.svg'
 import shirt from './shirt.svg'
 import food from './food.svg'
+import adobephotoshop from './adobephotoshop.svg'
+import coreldraw from './coreldraw.png'
+import Figma from './Figma.svg';
 
 export {
     css,
@@ -66,4 +69,8 @@ export {
     music,
     shirt,
     food,
+    adobephotoshop,
+    coreldraw,
+    Figma
+
 }

@@ -45,16 +45,15 @@ const Contact = () => {
       // YOUR TEMPLATE VARIABLES
       {
         from_name: form.name,
-        to_name: 'Zeltrax',
+        to_name: 'Pratham Mehta',
         from_email: form.email,
-        to_email: 'swapnil05029@gmail.com',
+        to_email: 'prathammehta773@gmail.com',
         message: form.message
       },
       // YOUR PUBLIC KEY
-      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
     ).then(() => {
       setIsLoading(false);
-
       // SHOW ALERT
       showAlert({
         show: true,
