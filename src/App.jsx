@@ -34,9 +34,6 @@ const App = () => {
           </Routes>
         </Router>
       </main>
-      <button onClick={toggleTheme} className="p-2 bg-gray-800 text-white rounded">
-        Toggle Theme
-      </button>
     </div>
   );
 };
