@@ -34,6 +34,7 @@ import food from './food.svg'
 import adobephotoshop from './adobephotoshop.svg'
 import coreldraw from './coreldraw.png'
 import Figma from './Figma.svg';
+import Canva from './Canva.svg';
 
 export {
     css,
@@ -71,6 +72,7 @@ export {
     food,
     adobephotoshop,
     coreldraw,
-    Figma
+    Figma,
+    Canva,
 
 }

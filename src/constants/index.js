@@ -40,6 +40,7 @@ import {
     food,
     coreldraw,
     Figma,
+    Canva,
 } from "../assets/icons";
 
 export const skills = [
@@ -108,6 +109,11 @@ export const skills = [
         name: "Figma ",
         type: "UIUX",
     },
+    {
+        imageUrl: Canva,
+        name: "Canva ",
+        type: "UIUX",
+    },
 
 
 ];
@@ -161,6 +167,20 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: pricewise,
+        theme: 'btn-back-blue',
+        name: 'AR Based Restaurant Management System',
+        description: 'An Augmented Reality (AR)-based application designed to elevate the dining experience by allowing users to visualize menu items in 3D before placing an order. By scanning a QR code or a designated marker on the table or menu using a smartphone or tablet, users can view lifelike 3D models of dishes, complete with animation, plating details, portion sizes, and dietary labels. This immersive visual aid helps customers make informed and satisfying choices.',
+        link: 'https://github.com/pratham7723/foodqr',
+    },
+    {
+    iconUrl: pricewise, // Replace with a suitable icon reference
+    theme: 'btn-back-blue',
+    name: 'PDF Bulk Sender',
+    description: 'An app designed for businesses to efficiently manage and send multiple PDFs. Instead of selecting files manually each time, users can simply choose a category and send all associated PDFs directly via WhatsApp in one click.',
+    link: 'https://github.com/pratham7723/sharemypdf'
+},
+    {
         iconUrl: zentry,
         theme: 'btn-back-pink',
         name: 'Fake News Detection',
@@ -174,5 +194,6 @@ export const projects = [
         description: 'A Gifting Website Created, where you can order gifts for your loved ones and get it delivered to their doorstep.',
         link: 'https://github.com/pratham7723/shopycloud',
     },
+
     
 ];
